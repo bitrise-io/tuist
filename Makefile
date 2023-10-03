@@ -16,3 +16,7 @@ lint:
 	./make/tasks/lint.sh
 lint/lockfiles:
 	./make/tasks/lint/lockfiles.sh
+release:
+	./make/tasks/release/bundle.sh $(ARGS)
+release/bundle:
+	./make/tasks/release/bundle.sh $(ARGS)
